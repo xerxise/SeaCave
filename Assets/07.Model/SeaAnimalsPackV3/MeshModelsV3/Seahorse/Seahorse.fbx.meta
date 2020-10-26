@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 88c61bde36aa1934ba150bd779cbcda4
+timeCreated: 1494496105
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Body2
+    100004: Bone.003
+    100006: Bone.003_end
+    100008: head
+    100010: //RootNode
+    100012: Seahorse
+    100014: SeahorseSkeleton
+    100016: tail1
+    100018: tail2
+    100020: tail3
+    100022: tail4
+    100024: tail5
+    100026: tail6
+    100028: tail7
+    100030: tail7_end
+    400000: Body1
+    400002: Body2
+    400004: Bone.003
+    400006: Bone.003_end
+    400008: head
+    400010: //RootNode
+    400012: Seahorse
+    400014: SeahorseSkeleton
+    400016: tail1
+    400018: tail2
+    400020: tail3
+    400022: tail4
+    400024: tail5
+    400026: tail6
+    400028: tail7
+    400030: tail7_end
+    4300000: Seahorse
+    7400000: death
+    7400002: hurt
+    7400004: idle
+    7400006: idle2
+    7400008: moveleft
+    7400010: moveright
+    7400012: walk
+    7400014: SeahorseSkeleton|death
+    7400016: SeahorseSkeleton|hurt
+    7400018: SeahorseSkeleton|idle
+    7400020: SeahorseSkeleton|idle2
+    7400022: SeahorseSkeleton|moveleft
+    7400024: SeahorseSkeleton|moveright
+    7400026: SeahorseSkeleton|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Seahorse
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 387
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: hurt
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle2
+      takeName: idle2
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: moveleft
+      takeName: moveleft
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: moveright
+      takeName: moveright
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Seahorse
+        weight: 1
+      - path: SeahorseSkeleton
+        weight: 1
+      - path: SeahorseSkeleton/Body2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003
+        weight: 1
+      - path: SeahorseSkeleton/Body2/Body1/head/Bone.003/Bone.003_end
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: SeahorseSkeleton/Body2/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail7_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

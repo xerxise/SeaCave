@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="InnoMI" preserve="all" />
+  <assembly fullname="Backend_NET" preserve="all" />
+</linker>

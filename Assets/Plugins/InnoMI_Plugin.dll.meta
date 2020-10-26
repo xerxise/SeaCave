@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 1665e2778ce71844b826dc57d37ec4bf
+timeCreated: 1550736207
+licenseType: Pro
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder:
+    MotionContext: 200
+    MotionFilter: 100
+    MotionInput: 300
+    MotionSource: 400
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,144 @@
+
+                                                   _SEA ANIMALS PACK V3 LOW POLY_ 
+
+
+this pack contains 8 animated Animals:
+
+
+
+ Models Only Texture Atlas Format:
+
+1-Anarhichas lupus rex/textureAtlas Color-2 
+1-Chelidonichthys lucernatextureAtlas Color2
+1-Tropical fish/textureAtlas Color2
+1-lobster/textureAtlas Color2
+1-Molidae/textureAtlas Color2
+1-muranea/textureAtlas Color 2
+1-Seahorse/textureAtlas Color2
+1-Tetraodontidae/textureAtlas Color 2
+
+TextureAtlas 2 Png
+1 Normal Map Include Png.
+
+
+
+
+Formats Models Only:
+fbx
+
+
+                                          ----       Unity3D Import   ------
+pack created unity 5
+ Version 5.4.1
+
+import package SEA ANIMALS PACK V3 LOW POLY in the unity 5
+
+
+
+
+Prefab Models:
+All models are already ready for use in practical prefab already generated and ready for you you just place them in the scene.
+
+
+optimizations:
+
+1-Models Lowpoly saving on quantities of polygons
+2-Skeleton:
+Using a few bones but that guarantee a realistic movement necessary in order to ease the calculation.
+3-Animations
+Using short animations, Low impact, Savings Calculation.
+4-TextureAtlas:
+Including homestyle considerable savings calculation.
+
+
+Ps important:
+it is possible that many models generally understood you present a notice in the console:
+ImportFBX Warnings:
+Can not import tangents and binormals, Because mesh.
+It frequently happens that Unity3D present this message because of particular exports and good to note that this does not mean that the model and compromise.
+proceed in this way:
+the item Model / Normals and Tangents.
+Normals:
+Calculate
+
+Smooting angle = 180
+
+Tangents
+Calculate Legacy
+
+Apply
+
+
+                                           -SEA ANIMALS PACK V3 LOW POLY---
+
+
+Anarhichas lupus Animation-6:
+Idle = 0-119
+Hurt = 0-24
+death = 0-139
+Eat = 0-71
+Eat = 0-19
+Walk = 0-39
+
+Chelidonichthys Animation-8:
+Openfin = 0-59
+Closefin = 0-59
+Hurt = 0-31
+death = 0-117
+Idle = 0-119
+Idle2 = 0-119
+Run = 0-20
+Walk = 0-39
+
+Tropical fish Animation-6
+Walk = 0-36
+death = 0-119
+eat = 0-56
+Run = 0-20
+hurt  = 0-29
+Idle = 0-119
+
+lobster Animation-6
+Attack = 0-39
+death = 0-89
+Hurt = 0-33
+eat = 0-119
+Idle = 0-119
+Walk = 0-39
+
+Molidae  Animation-4
+death = 0-158
+Hurt = 0-36
+Idle = 0-120
+walk = 0-39
+
+muranea Animation-7
+Deathidle = 0-177
+Deathwalk = 0-182
+eat = 0-139
+Hurtidle = 0-53
+Hurtwalk = 0-39
+idle = 0-177
+Walk = 0-39
+
+Seahorse Animation-7
+Death = 0-387
+Hurt = 0-27
+Idle = 0-149
+Idle2 = 0-149
+Moveleft = 0-59
+Moveright = 0-59
+Walk = 0-59
+
+Tetraodontidae Animation-9
+Death = 0-165
+Deathinflate = 0-169
+Hurt = 0-40
+Hurtinflate = 0-35
+Idle = 0-119
+Idleinflate = 0-119
+Inflate = 0-119
+Walk = 0-39
+Walkinflate = 0-39
+
+This package is created by elkan

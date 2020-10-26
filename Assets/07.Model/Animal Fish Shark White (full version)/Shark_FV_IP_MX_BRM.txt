@@ -1,0 +1,46 @@
+0000-0000 Bind pose
+0002-0119 loop Fight Idle
+0122-0186 loop Eating
+0189-0311 loop Idle
+0313-0396 loop Attack Bite with Lacerate
+0399-0438 loop Swiming Fast
+0440-0622 Death
+0624-0664 loop Turn Left
+0667-0707 loop Turn Right
+0710-0722 Start Swiming
+0725-0789 loop Swiming
+0792-0856 loop Swiming Up
+0859-0924 loop Swiming Down
+0926-0945 Start Diving
+0946-0984 loop Diving
+0985-1004 End Diving
+1006-1064 loop Strafe Right
+1067-1125 loop Strafe Left
+1128-1147 loop Hit Left
+1148-1167 loop Hit Right
+1168-1188 loop Hit Down
+1189-1208 loop Hit Up
+1211-1249 loop Diving with Attack 
+1251-1270 Start To Rise Up
+1271-1309 loop Rise Up
+1310-1329 End Rise Up
+1331-1370 loop Swiming Turn Left
+1373-1412 loop Swiming Turn Right
+1415-1453 loop Attack Rise Up
+1455-1530 Death 01
+1531-1629 loop Drifting After Death 01
+1632-1671 loop Dodge Right
+1674-1704 loop Dodge Left
+1707-1731 loop Attack Left Side
+1734-1755 loop Attack Right Side
+
+
+
+
+
+
+
+
+
+
+

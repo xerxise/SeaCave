@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 3fbc7d031c117dd4a96fa1260b757192
+timeCreated: 1497806090
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: eye.L
+    100006: eye.L_end
+    100008: eye.R
+    100010: eye.R_end
+    100012: fin_1
+    100014: fin_1.L
+    100016: fin_1.L_end
+    100018: fin_1.R
+    100020: fin_1.R_end
+    100022: fin_1_end
+    100024: fin_2
+    100026: fin_2.L
+    100028: fin_2.L_end
+    100030: fin_2.R
+    100032: fin_2.R_end
+    100034: fin_2_end
+    100036: fin_3
+    100038: fin_3.L
+    100040: fin_3.L_end
+    100042: fin_3.R
+    100044: fin_3.R_end
+    100046: fin_3_end
+    100048: fin_4
+    100050: fin_4_end
+    100052: fin_5
+    100054: fin_5_end
+    100056: general
+    100058: head
+    100060: mounth
+    100062: mounth_end
+    100064: neak
+    100066: //RootNode
+    100068: perch
+    100070: perch.001
+    100072: tail
+    100074: tail_1
+    100076: tail_2
+    100078: tail_end
+    400000: Armature
+    400002: body
+    400004: eye.L
+    400006: eye.L_end
+    400008: eye.R
+    400010: eye.R_end
+    400012: fin_1
+    400014: fin_1.L
+    400016: fin_1.L_end
+    400018: fin_1.R
+    400020: fin_1.R_end
+    400022: fin_1_end
+    400024: fin_2
+    400026: fin_2.L
+    400028: fin_2.L_end
+    400030: fin_2.R
+    400032: fin_2.R_end
+    400034: fin_2_end
+    400036: fin_3
+    400038: fin_3.L
+    400040: fin_3.L_end
+    400042: fin_3.R
+    400044: fin_3.R_end
+    400046: fin_3_end
+    400048: fin_4
+    400050: fin_4_end
+    400052: fin_5
+    400054: fin_5_end
+    400056: general
+    400058: head
+    400060: mounth
+    400062: mounth_end
+    400064: neak
+    400066: //RootNode
+    400068: perch
+    400070: perch.001
+    400072: tail
+    400074: tail_1
+    400076: tail_2
+    400078: tail_end
+    4300000: perch.001
+    4300002: perch
+    7400000: Armature|perch_eat
+    7400002: Armature|perch_idle
+    7400004: Armature|perch_swim
+    9500000: //RootNode
+    13700000: perch
+    13700002: perch.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|perch_eat
+      takeName: Armature|perch_eat
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/body
+        weight: 1
+      - path: Armature/general/body/fin_2
+        weight: 1
+      - path: Armature/general/body/fin_2/fin_2_end
+        weight: 1
+      - path: Armature/general/body/fin_3
+        weight: 1
+      - path: Armature/general/body/fin_3/fin_3_end
+        weight: 1
+      - path: Armature/general/body/tail_1
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L/fin_3.L_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R/fin_3.R_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4/fin_4_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5/fin_5_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail/tail_end
+        weight: 1
+      - path: Armature/general/neak
+        weight: 1
+      - path: Armature/general/neak/fin_1
+        weight: 1
+      - path: Armature/general/neak/fin_1/fin_1_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.L
+        weight: 1
+      - path: Armature/general/neak/fin_1.L/fin_1.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.R
+        weight: 1
+      - path: Armature/general/neak/fin_1.R/fin_1.R_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.L
+        weight: 1
+      - path: Armature/general/neak/fin_2.L/fin_2.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.R
+        weight: 1
+      - path: Armature/general/neak/fin_2.R/fin_2.R_end
+        weight: 1
+      - path: Armature/general/neak/head
+        weight: 1
+      - path: Armature/general/neak/head/eye.L
+        weight: 1
+      - path: Armature/general/neak/head/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/general/neak/head/eye.R
+        weight: 1
+      - path: Armature/general/neak/head/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/general/neak/head/mounth
+        weight: 1
+      - path: Armature/general/neak/head/mounth/mounth_end
+        weight: 1
+      - path: perch
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|perch_idle
+      takeName: Armature|perch_idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/body
+        weight: 1
+      - path: Armature/general/body/fin_2
+        weight: 1
+      - path: Armature/general/body/fin_2/fin_2_end
+        weight: 1
+      - path: Armature/general/body/fin_3
+        weight: 1
+      - path: Armature/general/body/fin_3/fin_3_end
+        weight: 1
+      - path: Armature/general/body/tail_1
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L/fin_3.L_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R/fin_3.R_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4/fin_4_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5/fin_5_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail/tail_end
+        weight: 1
+      - path: Armature/general/neak
+        weight: 1
+      - path: Armature/general/neak/fin_1
+        weight: 1
+      - path: Armature/general/neak/fin_1/fin_1_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.L
+        weight: 1
+      - path: Armature/general/neak/fin_1.L/fin_1.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.R
+        weight: 1
+      - path: Armature/general/neak/fin_1.R/fin_1.R_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.L
+        weight: 1
+      - path: Armature/general/neak/fin_2.L/fin_2.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.R
+        weight: 1
+      - path: Armature/general/neak/fin_2.R/fin_2.R_end
+        weight: 1
+      - path: Armature/general/neak/head
+        weight: 1
+      - path: Armature/general/neak/head/eye.L
+        weight: 1
+      - path: Armature/general/neak/head/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/general/neak/head/eye.R
+        weight: 1
+      - path: Armature/general/neak/head/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/general/neak/head/mounth
+        weight: 1
+      - path: Armature/general/neak/head/mounth/mounth_end
+        weight: 1
+      - path: perch
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|perch_swim
+      takeName: Armature|perch_swim
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/body
+        weight: 1
+      - path: Armature/general/body/fin_2
+        weight: 1
+      - path: Armature/general/body/fin_2/fin_2_end
+        weight: 1
+      - path: Armature/general/body/fin_3
+        weight: 1
+      - path: Armature/general/body/fin_3/fin_3_end
+        weight: 1
+      - path: Armature/general/body/tail_1
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.L/fin_3.L_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_3.R/fin_3.R_end
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4
+        weight: 1
+      - path: Armature/general/body/tail_1/fin_4/fin_4_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/fin_5/fin_5_end
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail
+        weight: 1
+      - path: Armature/general/body/tail_1/tail_2/tail/tail_end
+        weight: 1
+      - path: Armature/general/neak
+        weight: 1
+      - path: Armature/general/neak/fin_1
+        weight: 1
+      - path: Armature/general/neak/fin_1/fin_1_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.L
+        weight: 1
+      - path: Armature/general/neak/fin_1.L/fin_1.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_1.R
+        weight: 1
+      - path: Armature/general/neak/fin_1.R/fin_1.R_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.L
+        weight: 1
+      - path: Armature/general/neak/fin_2.L/fin_2.L_end
+        weight: 1
+      - path: Armature/general/neak/fin_2.R
+        weight: 1
+      - path: Armature/general/neak/fin_2.R/fin_2.R_end
+        weight: 1
+      - path: Armature/general/neak/head
+        weight: 1
+      - path: Armature/general/neak/head/eye.L
+        weight: 1
+      - path: Armature/general/neak/head/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/general/neak/head/eye.R
+        weight: 1
+      - path: Armature/general/neak/head/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/general/neak/head/mounth
+        weight: 1
+      - path: Armature/general/neak/head/mounth/mounth_end
+        weight: 1
+      - path: perch
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: ba576af93d0d04f4fb50e8f25628072f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: antennaLeft
+    100002: antennaLeft_end
+    100004: antennaRight
+    100006: antennaRight_end
+    100008: armLeft1
+    100010: armLeft2
+    100012: armRight1
+    100014: armRight2
+    100016: Body1
+    100018: legLeft1
+    100020: legLeft2
+    100022: legLeft2_end
+    100024: legLeft3
+    100026: legLeft4
+    100028: legLeft4_end
+    100030: legLeft5
+    100032: legLeft6
+    100034: legLeft6_end
+    100036: legLeft7
+    100038: legLeft8
+    100040: legLeft8_end
+    100042: legRight1
+    100044: legRight2
+    100046: legRight2_end
+    100048: legRight3
+    100050: legRight4
+    100052: legRight4_end
+    100054: legRight5
+    100056: legRight6
+    100058: legRight6_end
+    100060: legRight7
+    100062: legRight8
+    100064: legRight8_end
+    100066: //RootNode
+    100068: lobster
+    100070: lobsterSkeleton
+    100072: tail1
+    100074: tail2
+    100076: tail3
+    100078: tail3_end
+    100080: tongsLeft1
+    100082: tongsLeft2
+    100084: tongsLeft2_end
+    100086: tongsRight1
+    100088: tongsRight2
+    100090: tongsRight2_end
+    400000: antennaLeft
+    400002: antennaLeft_end
+    400004: antennaRight
+    400006: antennaRight_end
+    400008: armLeft1
+    400010: armLeft2
+    400012: armRight1
+    400014: armRight2
+    400016: Body1
+    400018: legLeft1
+    400020: legLeft2
+    400022: legLeft2_end
+    400024: legLeft3
+    400026: legLeft4
+    400028: legLeft4_end
+    400030: legLeft5
+    400032: legLeft6
+    400034: legLeft6_end
+    400036: legLeft7
+    400038: legLeft8
+    400040: legLeft8_end
+    400042: legRight1
+    400044: legRight2
+    400046: legRight2_end
+    400048: legRight3
+    400050: legRight4
+    400052: legRight4_end
+    400054: legRight5
+    400056: legRight6
+    400058: legRight6_end
+    400060: legRight7
+    400062: legRight8
+    400064: legRight8_end
+    400066: lobster
+    400068: //RootNode
+    400070: lobsterSkeleton
+    400072: tail1
+    400074: tail2
+    400076: tail3
+    400078: tail3_end
+    400080: tongsLeft1
+    400082: tongsLeft2
+    400084: tongsLeft2_end
+    400086: tongsRight1
+    400088: tongsRight2
+    400090: tongsRight2_end
+    4300000: lobster
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: walk
+    7400012: lobster|attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: lobster
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Materiale
+    second: {fileID: 2100000, guid: c41ece391cbd53947bc4b31d04ccac41, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: lobsterSkeleton|attack
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: lobsterSkeleton|death
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: lobsterSkeleton|eat
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: lobsterSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: lobsterSkeleton|idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: lobsterSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: lobster
+        weight: 1
+      - path: lobsterSkeleton
+        weight: 1
+      - path: lobsterSkeleton/Body1
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaLeft/antennaLeft_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight
+        weight: 1
+      - path: lobsterSkeleton/Body1/antennaRight/antennaRight_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armLeft1/armLeft2/tongsLeft1/tongsLeft2/tongsLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/armRight1/armRight2/tongsRight1/tongsRight2/tongsRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft1/legLeft2/legLeft2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft3/legLeft4/legLeft4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft5/legLeft6/legLeft6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legLeft7/legLeft8/legLeft8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight1/legRight2/legRight2_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight3/legRight4/legRight4_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight5/legRight6/legRight6_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8
+        weight: 1
+      - path: lobsterSkeleton/Body1/legRight7/legRight8/legRight8_end
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3
+        weight: 1
+      - path: lobsterSkeleton/Body1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.2
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

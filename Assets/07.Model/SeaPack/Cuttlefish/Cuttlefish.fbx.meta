@@ -1,0 +1,734 @@
+fileFormatVersion: 2
+guid: f9bc4daf9b2b4ad47b41cfcfee416963
+timeCreated: 1499779629
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Body_001
+    100006: Body_L
+    100008: Body_L_001
+    100010: Body_L_002
+    100012: Body_R
+    100014: Body_R_001
+    100016: Body_R_002
+    100018: //RootNode
+    100020: Eye_L
+    100022: Eye_R
+    100024: Group1
+    100026: Head
+    100028: Neck
+    100030: Tentecle_L
+    100032: Tentecle_L_001
+    100034: Tentecle_L_002
+    100036: Tentecle_L_003
+    100038: Tentecle_L_004
+    100040: Tentecle_L_005
+    100042: Tentecle_L_006
+    100044: Tentecle_L_007
+    100046: Tentecle_L_008
+    100048: Tentecle_L_009
+    100050: Tentecle_L_010
+    100052: Tentecle_L_011
+    100054: Tentecle_L_012
+    100056: Tentecle_L_013
+    100058: Tentecle_L_014
+    100060: Tentecle_L_015
+    100062: Tentecle_L_016
+    100064: Tentecle_L_017
+    100066: Tentecle_L_018
+    100068: Tentecle_L_019
+    100070: Tentecle_L_020
+    100072: Tentecle_L_021
+    100074: Tentecle_L_022
+    100076: Tentecle_L_023
+    100078: Tentecle_L_024
+    100080: Tentecle_L_025
+    100082: Tentecle_L_026
+    100084: Tentecle_L_027
+    100086: Tentecle_R
+    100088: Tentecle_R_001
+    100090: Tentecle_R_002
+    100092: Tentecle_R_003
+    100094: Tentecle_R_004
+    100096: Tentecle_R_005
+    100098: Tentecle_R_006
+    100100: Tentecle_R_007
+    100102: Tentecle_R_008
+    100104: Tentecle_R_009
+    100106: Tentecle_R_010
+    100108: Tentecle_R_011
+    100110: Tentecle_R_012
+    100112: Tentecle_R_013
+    100114: Tentecle_R_014
+    100116: Tentecle_R_015
+    100118: Tentecle_R_016
+    100120: Tentecle_R_017
+    100122: Tentecle_R_018
+    100124: Tentecle_R_019
+    100126: Tentecle_R_020
+    100128: Tentecle_R_021
+    100130: Tentecle_R_022
+    100132: Tentecle_R_023
+    100134: Tentecle_R_024
+    100136: Tentecle_R_025
+    100138: Tentecle_R_026
+    100140: Tentecle_R_027
+    400000: Armature
+    400002: Body
+    400004: Body_001
+    400006: Body_L
+    400008: Body_L_001
+    400010: Body_L_002
+    400012: Body_R
+    400014: Body_R_001
+    400016: Body_R_002
+    400018: //RootNode
+    400020: Eye_L
+    400022: Eye_R
+    400024: Group1
+    400026: Head
+    400028: Neck
+    400030: Tentecle_L
+    400032: Tentecle_L_001
+    400034: Tentecle_L_002
+    400036: Tentecle_L_003
+    400038: Tentecle_L_004
+    400040: Tentecle_L_005
+    400042: Tentecle_L_006
+    400044: Tentecle_L_007
+    400046: Tentecle_L_008
+    400048: Tentecle_L_009
+    400050: Tentecle_L_010
+    400052: Tentecle_L_011
+    400054: Tentecle_L_012
+    400056: Tentecle_L_013
+    400058: Tentecle_L_014
+    400060: Tentecle_L_015
+    400062: Tentecle_L_016
+    400064: Tentecle_L_017
+    400066: Tentecle_L_018
+    400068: Tentecle_L_019
+    400070: Tentecle_L_020
+    400072: Tentecle_L_021
+    400074: Tentecle_L_022
+    400076: Tentecle_L_023
+    400078: Tentecle_L_024
+    400080: Tentecle_L_025
+    400082: Tentecle_L_026
+    400084: Tentecle_L_027
+    400086: Tentecle_R
+    400088: Tentecle_R_001
+    400090: Tentecle_R_002
+    400092: Tentecle_R_003
+    400094: Tentecle_R_004
+    400096: Tentecle_R_005
+    400098: Tentecle_R_006
+    400100: Tentecle_R_007
+    400102: Tentecle_R_008
+    400104: Tentecle_R_009
+    400106: Tentecle_R_010
+    400108: Tentecle_R_011
+    400110: Tentecle_R_012
+    400112: Tentecle_R_013
+    400114: Tentecle_R_014
+    400116: Tentecle_R_015
+    400118: Tentecle_R_016
+    400120: Tentecle_R_017
+    400122: Tentecle_R_018
+    400124: Tentecle_R_019
+    400126: Tentecle_R_020
+    400128: Tentecle_R_021
+    400130: Tentecle_R_022
+    400132: Tentecle_R_023
+    400134: Tentecle_R_024
+    400136: Tentecle_R_025
+    400138: Tentecle_R_026
+    400140: Tentecle_R_027
+    4300000: Group1
+    7400000: CuttlefishSwimForward
+    7400002: ArmatureAction
+    7400004: CuttlefishSwimBackwards
+    7400006: CuttlefishTenticles
+    9500000: //RootNode
+    13700000: Group1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CuttlefishSwimForward
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Body_001
+        weight: 1
+      - path: Armature/Body/Body_L
+        weight: 1
+      - path: Armature/Body/Body_L_001
+        weight: 1
+      - path: Armature/Body/Body_L_002
+        weight: 1
+      - path: Armature/Body/Body_R
+        weight: 1
+      - path: Armature/Body/Body_R_001
+        weight: 1
+      - path: Armature/Body/Body_R_002
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004/Tentecle_L_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010/Tentecle_L_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019/Tentecle_L_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026/Tentecle_L_027
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004/Tentecle_R_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010/Tentecle_R_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019/Tentecle_R_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026/Tentecle_R_027
+        weight: 1
+      - path: Group1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CuttlefishSwimBackwards
+      takeName: Default Take
+      firstFrame: 77
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Body_001
+        weight: 1
+      - path: Armature/Body/Body_L
+        weight: 1
+      - path: Armature/Body/Body_L_001
+        weight: 1
+      - path: Armature/Body/Body_L_002
+        weight: 1
+      - path: Armature/Body/Body_R
+        weight: 1
+      - path: Armature/Body/Body_R_001
+        weight: 1
+      - path: Armature/Body/Body_R_002
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004/Tentecle_L_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010/Tentecle_L_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019/Tentecle_L_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026/Tentecle_L_027
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004/Tentecle_R_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010/Tentecle_R_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019/Tentecle_R_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026/Tentecle_R_027
+        weight: 1
+      - path: Group1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CuttlefishTenticles
+      takeName: Default Take
+      firstFrame: 125
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Body_001
+        weight: 1
+      - path: Armature/Body/Body_L
+        weight: 1
+      - path: Armature/Body/Body_L_001
+        weight: 1
+      - path: Armature/Body/Body_L_002
+        weight: 1
+      - path: Armature/Body/Body_R
+        weight: 1
+      - path: Armature/Body/Body_R_001
+        weight: 1
+      - path: Armature/Body/Body_R_002
+        weight: 1
+      - path: Armature/Body/Neck
+        weight: 1
+      - path: Armature/Body/Neck/Head
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Eye_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L/Tentecle_L_013/Tentecle_L_001/Tentecle_L_002/Tentecle_L_003/Tentecle_L_004/Tentecle_L_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_006/Tentecle_L_007/Tentecle_L_012/Tentecle_L_008/Tentecle_L_009/Tentecle_L_010/Tentecle_L_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_014/Tentecle_L_015/Tentecle_L_016/Tentecle_L_017/Tentecle_L_018/Tentecle_L_019/Tentecle_L_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_L_021/Tentecle_L_022/Tentecle_L_023/Tentecle_L_024/Tentecle_L_025/Tentecle_L_026/Tentecle_L_027
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R/Tentecle_R_013/Tentecle_R_001/Tentecle_R_002/Tentecle_R_003/Tentecle_R_004/Tentecle_R_005
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_006/Tentecle_R_007/Tentecle_R_012/Tentecle_R_008/Tentecle_R_009/Tentecle_R_010/Tentecle_R_011
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_014/Tentecle_R_015/Tentecle_R_016/Tentecle_R_017/Tentecle_R_018/Tentecle_R_019/Tentecle_R_020
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026
+        weight: 1
+      - path: Armature/Body/Neck/Head/Tentecle_R_021/Tentecle_R_022/Tentecle_R_023/Tentecle_R_024/Tentecle_R_025/Tentecle_R_026/Tentecle_R_027
+        weight: 1
+      - path: Group1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

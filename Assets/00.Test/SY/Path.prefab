@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1605221755176206}
+  m_IsPrefabParent: 1
+--- !u!1 &1605221755176206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4043766110426214}
+  - component: {fileID: 114199183968382338}
+  m_Layer: 0
+  m_Name: Path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4043766110426214
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605221755176206}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -116.15, y: 8.06, z: -47.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &114199183968382338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605221755176206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateType: 0
+  isSpeedBased: 0
+  hasOnStart: 0
+  hasOnPlay: 0
+  hasOnUpdate: 0
+  hasOnStepComplete: 0
+  hasOnComplete: 0
+  hasOnTweenCreated: 0
+  hasOnRewind: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onStepComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onTweenCreated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onRewind:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  delay: 0
+  duration: 60
+  easeType: 1
+  easeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loops: 1
+  id: BasePath
+  loopType: 0
+  orientType: 0
+  lookAtTransform: {fileID: 0}
+  lookAtPosition: {x: 0, y: 0, z: 0}
+  lookAhead: 0.01
+  autoPlay: 0
+  autoKill: 0
+  relative: 0
+  isLocal: 0
+  isClosedPath: 0
+  pathResolution: 10
+  pathMode: 1
+  lockRotation: 0
+  assignForwardAndUp: 0
+  forwardDirection: {x: 0, y: 0, z: 1}
+  upDirection: {x: 0, y: 1, z: 0}
+  tweenRigidbody: 0
+  wps:
+  - {x: -101.781296, y: 6.692448, z: -45.996758}
+  - {x: -96.30625, y: 2.5401917, z: -43.373768}
+  - {x: -90.22864, y: -0.5452502, z: -37.820816}
+  - {x: -85.01241, y: -0.1335026, z: -28.040491}
+  - {x: -90.18576, y: -1.0586809, z: -19.536816}
+  - {x: -89.30476, y: 0.101287365, z: -9.088483}
+  - {x: -85.07401, y: 1.8479409, z: 13.437237}
+  - {x: -70.5023, y: 6.9978027, z: 20.805153}
+  - {x: -50.39068, y: 5.1356106, z: 5.82008}
+  - {x: -28.260803, y: 6.817725, z: -16.35957}
+  - {x: -21.859344, y: 6.5569024, z: -39.442677}
+  - {x: -40.285133, y: 5.440531, z: -70.43082}
+  - {x: -70.377815, y: 5.68503, z: -75.969345}
+  - {x: -88.94173, y: 6.502378, z: -52.198017}
+  - {x: -97.560585, y: 6.593585, z: -48.47501}
+  fullWps: []
+  path:
+    wpLengths:
+    - 0
+    - 14.550771
+    - 7.502887
+    - 8.872007
+    - 11.258915
+    - 10.168589
+    - 10.63141
+    - 23.13869
+    - 18.15587
+    - 25.380997
+    - 31.47847
+    - 24.695772
+    - 36.584393
+    - 31.6303
+    - 30.569025
+    - 9.684933
+    type: 1
+    subdivisionsXSegment: 10
+    subdivisions: 160
+    wps:
+    - {x: -116.15, y: 8.06, z: -47.67}
+    - {x: -101.781296, y: 6.692448, z: -45.996758}
+    - {x: -96.30625, y: 2.5401917, z: -43.373768}
+    - {x: -90.22864, y: -0.5452502, z: -37.820816}
+    - {x: -85.01241, y: -0.1335026, z: -28.040491}
+    - {x: -90.18576, y: -1.0586809, z: -19.536816}
+    - {x: -89.30476, y: 0.101287365, z: -9.088483}
+    - {x: -85.07401, y: 1.8479409, z: 13.437237}
+    - {x: -70.5023, y: 6.9978027, z: 20.805153}
+    - {x: -50.39068, y: 5.1356106, z: 5.82008}
+    - {x: -28.260803, y: 6.817725, z: -16.35957}
+    - {x: -21.859344, y: 6.5569024, z: -39.442677}
+    - {x: -40.285133, y: 5.440531, z: -70.43082}
+    - {x: -70.377815, y: 5.68503, z: -75.969345}
+    - {x: -88.94173, y: 6.502378, z: -52.198017}
+    - {x: -97.560585, y: 6.593585, z: -48.47501}
+    controlPoints:
+    - a: {x: -101.781296, y: 6.692448, z: -45.996758}
+      b: {x: 0, y: 0, z: 0}
+    - a: {x: -106.17944, y: 6.684792, z: -44.752003}
+      b: {x: 0, y: 0, z: 0}
+    length: 294.3155
+    isFinalized: 1
+    timesTable:
+    - 0.00625
+    - 0.0125
+    - 0.01875
+    - 0.025
+    - 0.03125
+    - 0.0375
+    - 0.04375
+    - 0.05
+    - 0.056250002
+    - 0.0625
+    - 0.06875
+    - 0.075
+    - 0.081250004
+    - 0.0875
+    - 0.09375
+    - 0.1
+    - 0.10625
+    - 0.112500004
+    - 0.11875
+    - 0.125
+    - 0.13125001
+    - 0.1375
+    - 0.14375
+    - 0.15
+    - 0.15625
+    - 0.16250001
+    - 0.16875
+    - 0.175
+    - 0.18125
+    - 0.1875
+    - 0.19375001
+    - 0.2
+    - 0.20625
+    - 0.2125
+    - 0.21875
+    - 0.22500001
+    - 0.23125
+    - 0.2375
+    - 0.24375
+    - 0.25
+    - 0.25625
+    - 0.26250002
+    - 0.26875
+    - 0.275
+    - 0.28125
+    - 0.2875
+    - 0.29375002
+    - 0.3
+    - 0.30625
+    - 0.3125
+    - 0.31875
+    - 0.32500002
+    - 0.33125
+    - 0.3375
+    - 0.34375
+    - 0.35
+    - 0.35625002
+    - 0.3625
+    - 0.36875
+    - 0.375
+    - 0.38125
+    - 0.38750002
+    - 0.39375
+    - 0.4
+    - 0.40625
+    - 0.4125
+    - 0.41875002
+    - 0.425
+    - 0.43125
+    - 0.4375
+    - 0.44375
+    - 0.45000002
+    - 0.45625
+    - 0.4625
+    - 0.46875
+    - 0.475
+    - 0.48125002
+    - 0.4875
+    - 0.49375
+    - 0.5
+    - 0.50625
+    - 0.5125
+    - 0.51875
+    - 0.52500004
+    - 0.53125
+    - 0.5375
+    - 0.54375
+    - 0.55
+    - 0.55625004
+    - 0.5625
+    - 0.56875
+    - 0.575
+    - 0.58125
+    - 0.58750004
+    - 0.59375
+    - 0.6
+    - 0.60625
+    - 0.6125
+    - 0.61875004
+    - 0.625
+    - 0.63125
+    - 0.6375
+    - 0.64375
+    - 0.65000004
+    - 0.65625
+    - 0.6625
+    - 0.66875
+    - 0.675
+    - 0.68125004
+    - 0.6875
+    - 0.69375
+    - 0.7
+    - 0.70625
+    - 0.71250004
+    - 0.71875
+    - 0.725
+    - 0.73125
+    - 0.7375
+    - 0.74375004
+    - 0.75
+    - 0.75625
+    - 0.7625
+    - 0.76875
+    - 0.77500004
+    - 0.78125
+    - 0.7875
+    - 0.79375
+    - 0.8
+    - 0.80625004
+    - 0.8125
+    - 0.81875
+    - 0.825
+    - 0.83125
+    - 0.83750004
+    - 0.84375
+    - 0.85
+    - 0.85625
+    - 0.8625
+    - 0.86875004
+    - 0.875
+    - 0.88125
+    - 0.8875
+    - 0.89375
+    - 0.90000004
+    - 0.90625
+    - 0.9125
+    - 0.91875
+    - 0.925
+    - 0.93125004
+    - 0.9375
+    - 0.94375
+    - 0.95
+    - 0.95625
+    - 0.96250004
+    - 0.96875
+    - 0.975
+    - 0.98125
+    - 0.9875
+    - 0.99375004
+    - 1
+    lengthsTable:
+    - 0.2774682
+    - 1.0478201
+    - 2.2180037
+    - 3.6950116
+    - 5.385912
+    - 7.197908
+    - 9.038379
+    - 10.81507
+    - 12.436422
+    - 13.812448
+    - 14.871902
+    - 15.753897
+    - 16.537468
+    - 17.250729
+    - 17.917938
+    - 18.558401
+    - 19.186707
+    - 19.814272
+    - 20.451704
+    - 21.111364
+    - 21.8094
+    - 22.556509
+    - 23.329367
+    - 24.122242
+    - 24.931875
+    - 25.755445
+    - 26.590717
+    - 27.436213
+    - 28.291382
+    - 29.156723
+    - 30.03399
+    - 30.926281
+    - 31.876163
+    - 32.911243
+    - 34.0103
+    - 35.150257
+    - 36.307404
+    - 37.458317
+    - 38.580727
+    - 39.654675
+    - 40.664314
+    - 41.60091
+    - 42.46894
+    - 43.317066
+    - 44.197166
+    - 45.12848
+    - 46.108864
+    - 47.12384
+    - 48.153107
+    - 49.175076
+    - 50.170906
+    - 51.12917
+    - 52.052204
+    - 52.945076
+    - 53.776974
+    - 54.573975
+    - 55.3665
+    - 56.183243
+    - 57.050777
+    - 57.993828
+    - 59.035923
+    - 60.2001
+    - 61.50941
+    - 62.987244
+    - 64.71412
+    - 66.71408
+    - 68.9235
+    - 71.2776
+    - 73.71174
+    - 76.16213
+    - 78.56687
+    - 80.867325
+    - 83.010544
+    - 84.95409
+    - 86.690216
+    - 88.40259
+    - 90.1392
+    - 91.88866
+    - 93.63835
+    - 95.376175
+    - 97.09219
+    - 98.78052
+    - 100.44162
+    - 102.08462
+    - 103.72968
+    - 105.42865
+    - 107.2842
+    - 109.31834
+    - 111.525764
+    - 113.888016
+    - 116.37911
+    - 118.96877
+    - 121.62472
+    - 124.314
+    - 127.00435
+    - 129.66545
+    - 132.4001
+    - 135.30173
+    - 138.32764
+    - 141.43462
+    - 144.57956
+    - 147.71971
+    - 150.81342
+    - 153.82054
+    - 156.70352
+    - 159.4288
+    - 161.97621
+    - 164.4222
+    - 166.7964
+    - 169.10518
+    - 171.35843
+    - 173.57083
+    - 175.76321
+    - 177.96326
+    - 180.20567
+    - 182.53142
+    - 184.98589
+    - 187.66351
+    - 190.7085
+    - 194.05957
+    - 197.6378
+    - 201.36258
+    - 205.15329
+    - 208.93016
+    - 212.61562
+    - 216.13608
+    - 219.42459
+    - 222.42627
+    - 225.33455
+    - 228.35439
+    - 231.45775
+    - 234.61014
+    - 237.77344
+    - 240.90764
+    - 243.97273
+    - 246.93053
+    - 249.74675
+    - 252.39453
+    - 254.87666
+    - 257.46457
+    - 260.28815
+    - 263.33206
+    - 266.53766
+    - 269.82288
+    - 273.09302
+    - 276.24716
+    - 279.18204
+    - 281.7966
+    - 283.99933
+    - 285.75818
+    - 287.17908
+    - 288.33017
+    - 289.27527
+    - 290.0764
+    - 290.78876
+    - 291.4561
+    - 292.11087
+    - 292.78143
+    - 293.50128
+    - 294.3155
+  inspectorMode: 0
+  pathType: 1
+  handlesType: 0
+  livePreview: 1
+  handlesDrawMode: 0
+  perspectiveHandleSize: 0.5
+  showIndexes: 1
+  showWpLength: 0
+  pathColor: {r: 1, g: 1, b: 1, a: 0.5}
+  lastSrcPosition: {x: -116.15, y: 8.06, z: -47.67}
+  wpsDropdown: 1
+  dropToFloorOffset: 0

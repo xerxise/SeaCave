@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: e714aed75ff5bc54aa4a04efb2c2f481
+timeCreated: 1494496108
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: finLeft
+    100004: finLeft_end
+    100006: finRight
+    100008: finRight_end
+    100010: //RootNode
+    100012: Molidae
+    100014: MolidaeSkeleton
+    100016: mouth
+    100018: mouth_end
+    100020: tail
+    100022: tail_end
+    400000: body
+    400002: finLeft
+    400004: finLeft_end
+    400006: finRight
+    400008: finRight_end
+    400010: //RootNode
+    400012: Molidae
+    400014: MolidaeSkeleton
+    400016: mouth
+    400018: mouth_end
+    400020: tail
+    400022: tail_end
+    4300000: Molidae
+    7400000: death
+    7400002: hurt
+    7400004: idle
+    7400006: MolidaeSkeleton|pose
+    7400008: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Molidae
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: MolidaeSkeleton|death
+      firstFrame: 0
+      lastFrame: 158
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Molidae
+        weight: 1
+      - path: MolidaeSkeleton
+        weight: 1
+      - path: MolidaeSkeleton/body
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft/finLeft_end
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight/finRight_end
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth/mouth_end
+        weight: 1
+      - path: MolidaeSkeleton/body/tail
+        weight: 1
+      - path: MolidaeSkeleton/body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: MolidaeSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Molidae
+        weight: 1
+      - path: MolidaeSkeleton
+        weight: 1
+      - path: MolidaeSkeleton/body
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft/finLeft_end
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight/finRight_end
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth/mouth_end
+        weight: 1
+      - path: MolidaeSkeleton/body/tail
+        weight: 1
+      - path: MolidaeSkeleton/body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: MolidaeSkeleton|idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Molidae
+        weight: 1
+      - path: MolidaeSkeleton
+        weight: 1
+      - path: MolidaeSkeleton/body
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft/finLeft_end
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight/finRight_end
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth/mouth_end
+        weight: 1
+      - path: MolidaeSkeleton/body/tail
+        weight: 1
+      - path: MolidaeSkeleton/body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: MolidaeSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Molidae
+        weight: 1
+      - path: MolidaeSkeleton
+        weight: 1
+      - path: MolidaeSkeleton/body
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft
+        weight: 1
+      - path: MolidaeSkeleton/body/finLeft/finLeft_end
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight
+        weight: 1
+      - path: MolidaeSkeleton/body/finRight/finRight_end
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth
+        weight: 1
+      - path: MolidaeSkeleton/body/mouth/mouth_end
+        weight: 1
+      - path: MolidaeSkeleton/body/tail
+        weight: 1
+      - path: MolidaeSkeleton/body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
